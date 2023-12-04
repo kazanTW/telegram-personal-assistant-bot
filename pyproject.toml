@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "telegram-personal-assistant-bot"
+version = "0.1.0"
+description = "A Telegram Chat bot as personal assistant written in Python"
+authors = ["Kazan <me@kazan.tw>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "telegram_personal_assistant_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyTelegramBotAPI = "^4.14.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
